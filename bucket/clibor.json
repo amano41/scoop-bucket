@@ -2,9 +2,9 @@
     "homepage": "https://chigusa-web.com/clibor/",
     "description": "Simple and feature-rich clipboard manager",
     "license": "Freeware",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "url": "https://dforest.watch.impress.co.jp/library/c/clibor/10713/clibor.zip",
-    "hash": "9e84ad514e11ffde4f8b7f5ae5a9fc78b15d6e8899ad9a1fbd05b2ff71cf7fee",
+    "hash": "7c904488a12f03e71b153aacaf3ae355cc5d19199799466370af2b8a5add17ce",
     "extract_dir": "clibor",
     "bin": "Clibor.exe",
     "shortcuts": [
