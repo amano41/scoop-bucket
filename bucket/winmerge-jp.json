@@ -5,11 +5,11 @@
     "version": "2.16.6+-jp-1",
     "architecture": {
         "32bit": {
-            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F72460%2Fwinmerge-2.16.6-jp-1-exe.zip",
+            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F72460%2Fwinmerge-2.16.6-jp-1-exe.zip#/dl.7z",
             "hash": "27cbad99a21f1aa4c50ffb6a36a7d131d9243f7f71c199cbc564c6095739a05e"
         },
         "64bit": {
-            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F72460%2Fwinmerge-2.16.6-jp-1-x64-exe.zip",
+            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F72460%2Fwinmerge-2.16.6-jp-1-x64-exe.zip#/dl.7z",
             "hash": "8449d49460219309caf81b9531d4814a4d553a28159bd08f4c9796ed432c80f1"
         }
     },
@@ -30,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F$matchRelease%2Fwinmerge-$matchVersion-jp-$matchBuild-exe.zip"
+                "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F$matchRelease%2Fwinmerge-$matchVersion-jp-$matchBuild-exe.zip#/dl.7z"
             },
             "64bit": {
-                "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F$matchRelease%2Fwinmerge-$matchVersion-jp-$matchBuild-x64-exe.zip"
+                "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F$matchRelease%2Fwinmerge-$matchVersion-jp-$matchBuild-x64-exe.zip#/dl.7z"
             }
         }
     }
