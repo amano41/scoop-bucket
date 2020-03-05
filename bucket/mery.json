@@ -1,0 +1,58 @@
+{
+    "homepage": "https://www.haijin-boys.com/",
+    "description": "Simple text editor",
+    "license": "Freeware",
+    "version": "2.8.8",
+    "architecture": {
+        "32bit": {
+            "url": "http://download.haijin-boys.com/download/Mery-2.8.8.zip",
+            "hash": "b8879b69ce9ff44d3034c400f07fd645375033d2f0f37d37bf1b3ff9ab2deb40"
+        },
+        "64bit": {
+            "url": "http://download.haijin-boys.com/download/Mery-x64-2.8.8.zip",
+            "hash": "99a0a9422017cf0036be7175b3cea5e45fdd3b113fc5de7023f3f0db4be3fa0e"
+        }
+    },
+    "extract_dir": "Mery",
+    "bin": "Mery.exe",
+    "shortcuts": [
+        [
+            "Mery.exe",
+            "Mery"
+        ]
+    ],
+    "persist": [
+        "Mery.ini",
+        "Mery.his",
+        "Dicts",
+        "Ext",
+        "Macros",
+        "Plugins",
+        "migemo.dll",
+        "dict"
+    ],
+    "pre_install": [
+        "function CreateEmptyFile($name) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        New-Item -Path \"$dir\\$name\" -ItemType File | Out-Null",
+        "    }",
+        "}",
+        "CreateEmptyFile Mery.ini",
+        "CreateEmptyFile Mery.his",
+        "CreateEmptyFile migemo.dll"
+    ],
+    "checkver": {
+        "url": "https://www.haijin-boys.com/software/mery",
+        "re": "Ver (?<version>[\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "http://download.haijin-boys.com/download/Mery-$version.zip"
+            },
+            "64bit": {
+                "url": "http://download.haijin-boys.com/download/Mery-x64-$version.zip"
+            }
+        }
+    }
+}

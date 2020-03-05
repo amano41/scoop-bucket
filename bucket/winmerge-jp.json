@@ -1,0 +1,40 @@
+{
+    "homepage": "https://winmergejp.bitbucket.io/",
+    "description": "An open source differencing and merging tool for Windows that compares both folders and files.",
+    "license": "GPL-2.0-only",
+    "version": "2.16.6+-jp-1",
+    "architecture": {
+        "32bit": {
+            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F72460%2Fwinmerge-2.16.6-jp-1-exe.zip",
+            "hash": "27cbad99a21f1aa4c50ffb6a36a7d131d9243f7f71c199cbc564c6095739a05e"
+        },
+        "64bit": {
+            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F72460%2Fwinmerge-2.16.6-jp-1-x64-exe.zip",
+            "hash": "8449d49460219309caf81b9531d4814a4d553a28159bd08f4c9796ed432c80f1"
+        }
+    },
+    "extract_dir": "WinMerge",
+    "bin": "WinMergeU.exe",
+    "shortcuts": [
+        [
+            "WinMergeU.exe",
+            "WinMerge-JP"
+        ]
+    ],
+    "persist": "MergePlugins",
+    "checkver": {
+        "url": "https://osdn.net/projects/winmerge-jp/releases/",
+        "re": "downloads/(?<release>[\\d]{5})/WinMerge-(?<version>[\\d.]+)-jp-(?<build>[\\d]+)-x64-Setup.exe",
+        "replace": "${version}+-jp-${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F$matchRelease%2Fwinmerge-$matchVersion-jp-$matchBuild-exe.zip"
+            },
+            "64bit": {
+                "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F$matchRelease%2Fwinmerge-$matchVersion-jp-$matchBuild-x64-exe.zip"
+            }
+        }
+    }
+}

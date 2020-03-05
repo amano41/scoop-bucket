@@ -1,0 +1,36 @@
+{
+    "homepage": "https://sites.google.com/site/craftware/",
+    "description": "Key customization tool powered by Python",
+    "license": "Freeware",
+    "version": "1.80",
+    "url": "https://crftwr.github.io/keyhac/download/keyhac_180.zip",
+    "hash": "61ac5e654c5dc528f64277bd360012efd34385c9658c7add80f4c0297bfd2641",
+    "extract_dir": "keyhac",
+    "bin": "keyhac.exe",
+    "shortcuts": [
+        [
+            "keyhac.exe",
+            "Keyhac"
+        ]
+    ],
+    "persist": [
+        "config.py",
+        "keyhac.ini",
+        "dict"
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\config.py\")) {",
+        "    Copy-Item -Path \"$dir\\_config.py\" -Destination \"$dir\\config.py\"",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\keyhac.ini\")) {",
+        "    New-Item -Path \"$dir\\keyhac.ini\" -ItemType File | Out-Null",
+        "}"
+    ],
+    "checkver": {
+        "url": "https://sites.google.com/site/craftware/keyhac-en",
+        "re": "Keyhac for Windows ver (?<version>[\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://crftwr.github.io/keyhac/download/keyhac_$cleanVersion.zip"
+    }
+}

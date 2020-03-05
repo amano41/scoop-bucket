@@ -1,0 +1,51 @@
+{
+    "homepage": "http://nagatsuki.la.coocan.jp/bunbackup/",
+    "description": "Easy and fast backup utility",
+    "license": "Freeware",
+    "version": "6.00",
+    "architecture": {
+        "32bit": {
+            "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup600.zip",
+            "hash": "76887cb86fd9f79b2e653b652f8fd7b0670423ec45d17790c553ac955fbbd7fd"
+        },
+        "64bit": {
+            "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS600.zip",
+            "hash": "b752056905e1d5db0f1d10572efae20035dad9e64744ce7e4125601dbab06fee"
+        }
+    },
+    "bin": "BunBackup.exe",
+    "shortcuts": [
+        [
+            "BunBackup.exe",
+            "BunBackup"
+        ]
+    ],
+    "persist": [
+        "BunBackup.ini",
+        "BunBackup.env"
+    ],
+    "pre_install": [
+        "function CreateEmptyFile($name) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        New-Item -Path \"$dir\\$name\" -ItemType File | Out-Null",
+        "    }",
+        "}",
+        "CreateEmptyFile BunBackup.ini",
+        "CreateEmptyFile BunBackup.env"
+    ],
+    "checkver": {
+        "url": "http://nagatsuki.la.coocan.jp/bunbackup/download.htm",
+        "re": "download/BunBackup(\\d)(\\d{2}).zip",
+        "replace": "$1.$2"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup$match1$match2.zip"
+            },
+            "64bit": {
+                "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS$match1$match2.zip"
+            }
+        }
+    }
+}
