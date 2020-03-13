@@ -1,0 +1,34 @@
+{
+    "homepage": "http://hp.vector.co.jp/authors/VA055804/TresGrep/",
+    "description": "A file and text search software (so-called grep tool)",
+    "license": "Freeware",
+    "version": "1.20.2019.1214",
+    "url": "http://hp.vector.co.jp/authors/VA055804/TresGrep/TresGrep_1.20_20191214.zip",
+    "hash": "939e6f21c5eb15067ab22a1935814ee929701b6faf3e2e31bcde9a393c2e6a54",
+    "extract_dir": "TresGrep",
+    "bin": [
+        "TresGrep.exe",
+        "TresGrepC.bat"
+    ],
+    "shortcuts": [
+        [
+            "TresGrep.exe",
+            "TresGrep"
+        ]
+    ],
+    "persist": "bregonig.dll",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\bregonig.dll\")) {",
+        "    New-Item -Path \"$dir\\bregonig.dll\" -ItemType File | Out-Null",
+        "}"
+    ],
+    "post_install": "(Get-Content -Encoding shift_jis \"$dir\\TresGrepC.bat\") -Join \"`r`n\" | Set-Content -Encoding shift_jis \"$dir\\TresGrepC.bat\"",
+    "checkver": {
+        "url": "http://hp.vector.co.jp/authors/VA055804/TresGrep/",
+        "re": "Ver (?<version>[\\d]+\\.[\\d]+)\\.(?<year>[\\d]{4})\\.(?<date>[\\d]{4})",
+        "replace": "${version}.${year}.${date}"
+    },
+    "autoupdate": {
+        "url": "http://hp.vector.co.jp/authors/VA055804/TresGrep/TresGrep_$matchVersion_$matchYear$matchDate.zip"
+    }
+}

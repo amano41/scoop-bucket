@@ -21,6 +21,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 | mery        | text editor                 |
 | tomighty    | desktop timer               |
 | trayvolume  | volume controller           |
+| tresgrep    | grep tool                   |
 | win32yank   | command-line clipboard tool |
 | winmerge-jp | diff and merge tool         |
 | xdoc2txt    | text converter              |
