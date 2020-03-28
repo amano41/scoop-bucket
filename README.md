@@ -20,6 +20,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 | keyhac      | key customization tool      |
 | massigra    | image viewer                |
 | mery        | text editor                 |
+| rapture     | screen capture tool         |
 | tomighty    | desktop timer               |
 | trayvolume  | volume controller           |
 | tresgrep    | grep tool                   |

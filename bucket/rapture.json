@@ -1,0 +1,28 @@
+{
+    "homepage": "http://www.knystudio.net/rapture.html",
+    "description": "Screen capture tool",
+    "license": "Freeware",
+    "version": "2.4.0",
+    "url": "http://www.knystudio.net/rapture-2.4.0.zip",
+    "hash": "a105ea6d1da2988886edebb3cd46a463881b64ea4a276da5d6c6433cddce8333",
+    "bin": "rapture.exe",
+    "shortcuts": [
+        [
+            "rapture.exe",
+            "Rapture"
+        ]
+    ],
+    "persist": "rapture.ini",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\rapture.ini\")) {",
+        "    New-Item -Path \"$dir\\rapture.ini\" -ItemType File | Out-Null",
+        "}"
+    ],
+    "checkver": {
+        "url": "http://www.knystudio.net/rapture.html",
+        "re": "Version (?<version>[\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.knystudio.net/rapture-$version.zip"
+    }
+}
