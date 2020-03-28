@@ -14,6 +14,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 | App         | Description                 |
 | ----------- | --------------------------- |
 | bunbackup   | backup tool                 |
+| cassava     | csv/tsv editor              |
 | clibor      | clipboard manager           |
 | hiddex      | screen privacy tool         |
 | keyhac      | key customization tool      |
