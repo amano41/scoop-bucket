@@ -21,6 +21,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 | massigra    | image viewer                |
 | mery        | text editor                 |
 | rapture     | screen capture tool         |
+| sylphyhorn  | virtual desktop tool        |
 | tomighty    | desktop timer               |
 | trayvolume  | volume controller           |
 | tresgrep    | grep tool                   |
