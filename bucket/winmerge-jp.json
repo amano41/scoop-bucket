@@ -2,15 +2,15 @@
     "homepage": "https://winmergejp.bitbucket.io/",
     "description": "An open source differencing and merging tool for Windows that compares both folders and files.",
     "license": "GPL-2.0-only",
-    "version": "2.16.6+-jp-4",
+    "version": "2.16.6+-jp-6",
     "architecture": {
         "32bit": {
-            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F72848%2Fwinmerge-2.16.6-jp-4-exe.zip#/dl.7z",
-            "hash": "b7aba35485626b85e5c538f77374c3b2fa661d6af3c8c661a4b892b07301a68d"
+            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F73072%2Fwinmerge-2.16.6-jp-6-exe.zip#/dl.7z",
+            "hash": "7e9a5e9b148e32c622ff71cacde252ce0c904ac6421ad4c0f502fa164eab9ece"
         },
         "64bit": {
-            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F72848%2Fwinmerge-2.16.6-jp-4-x64-exe.zip#/dl.7z",
-            "hash": "6c944869b35c6d5cd3d5f462fed575cebd7685a70446007c48dff9425aa86c63"
+            "url": "https://osdn.net/frs/redir.php?f=winmerge-jp%2F73072%2Fwinmerge-2.16.6-jp-6-x64-exe.zip#/dl.7z",
+            "hash": "ea34566337c3a6be0367bbd4b9ac2702ee396c8d279aed65464683b6efd94c62"
         }
     },
     "extract_dir": "WinMerge",
