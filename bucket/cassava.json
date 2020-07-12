@@ -2,9 +2,9 @@
     "homepage": "https://www.asukaze.net/soft/cassava/",
     "description": "CSV/TSV editor",
     "license": "Freeware",
-    "version": "2.1.5",
-    "url": "https://www.asukaze.net/soft/cassava/arc/Cassava2_1_5.zip",
-    "hash": "c223a050505f11535fb1d713dd0d5b2331d5884da77df0189d7c0c38b59b4fd6",
+    "version": "2.2.1",
+    "url": "https://www.asukaze.net/soft/cassava/arc/Cassava2_2_1.zip",
+    "hash": "51fc29ca2726650ec55e8da756681d23963d350e28794c6a5e31b0e1e32e9621",
     "extract_dir": "Cassava",
     "bin": "Cassava.exe",
     "shortcuts": [
