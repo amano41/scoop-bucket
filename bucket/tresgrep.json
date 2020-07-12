@@ -24,8 +24,8 @@
     ],
     "post_install": "(Get-Content -Encoding shift_jis \"$dir\\TresGrepC.bat\") -Join \"`r`n\" | Set-Content -Encoding shift_jis \"$dir\\TresGrepC.bat\"",
     "checkver": {
-        "url": "http://hp.vector.co.jp/authors/VA055804/TresGrep/",
-        "re": "Ver (?<version>[\\d]+\\.[\\d]+)\\.(?<year>[\\d]{4})\\.(?<date>[\\d]{4})",
+        "url": "https://www.vector.co.jp/soft/dl/winnt/util/se516431.html",
+        "re": "<span class=\"version\">(?<version>[\\d]+\\.[\\d]+)\\.(?<year>[\\d]{4})\\.(?<date>[\\d]{4})",
         "replace": "${version}.${year}.${date}"
     },
     "autoupdate": {
