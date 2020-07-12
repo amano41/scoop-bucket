@@ -2,9 +2,9 @@
     "homepage": "http://hp.vector.co.jp/authors/VA055804/TresGrep/",
     "description": "A file and text search software (so-called grep tool)",
     "license": "Freeware",
-    "version": "1.20.2019.1214",
-    "url": "http://hp.vector.co.jp/authors/VA055804/TresGrep/TresGrep_1.20_20191214.zip",
-    "hash": "939e6f21c5eb15067ab22a1935814ee929701b6faf3e2e31bcde9a393c2e6a54",
+    "version": "1.22.2020.0702",
+    "url": "http://hp.vector.co.jp/authors/VA055804/TresGrep/TresGrep_1.22_20200702.zip",
+    "hash": "a6ee820f5fa7d90992e35fd4701921bc9bd013c23a7f80c26441e7c81b83b3ac",
     "extract_dir": "TresGrep",
     "bin": [
         "TresGrep.exe",
