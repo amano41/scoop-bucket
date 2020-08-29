@@ -22,6 +22,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 | mery        | text editor                 |
 | pause       | always-on-top tool          |
 | rapture     | screen capture tool         |
+| sizer       | window resize tool          |
 | sylphyhorn  | virtual desktop tool        |
 | tomighty    | desktop timer               |
 | trayvolume  | volume controller           |
