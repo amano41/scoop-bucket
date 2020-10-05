@@ -2,9 +2,9 @@
     "homepage": "http://www.knystudio.net/rapture.html",
     "description": "Screen capture tool",
     "license": "Freeware",
-    "version": "2.4.0",
-    "url": "http://www.knystudio.net/rapture-2.4.0.zip",
-    "hash": "a105ea6d1da2988886edebb3cd46a463881b64ea4a276da5d6c6433cddce8333",
+    "version": "2.4.1",
+    "url": "http://www.knystudio.net/rapture-2.4.1.zip",
+    "hash": "229fd56c8f6ba260de8767f40776a50100b684875689d15ba6d7a99231218fad",
     "bin": "rapture.exe",
     "shortcuts": [
         [
