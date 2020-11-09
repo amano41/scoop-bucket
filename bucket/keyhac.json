@@ -16,7 +16,8 @@
     "persist": [
         "config.py",
         "keyhac.ini",
-        "dict"
+        "dict",
+        "extension"
     ],
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\config.py\")) {",
