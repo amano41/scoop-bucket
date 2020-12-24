@@ -11,25 +11,26 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 
 ## App Manifests
 
-| App         | Description                 |
-| ----------- | --------------------------- |
-| bunbackup   | backup tool                 |
-| cassava     | csv/tsv editor              |
-| clibor      | clipboard manager           |
-| hiddex      | screen privacy tool         |
-| keyhac      | key customization tool      |
-| massigra    | image viewer                |
-| mery        | text editor                 |
-| pause       | always-on-top tool          |
-| rapture     | screen capture tool         |
-| sizer       | window resize tool          |
-| sylphyhorn  | virtual desktop tool        |
-| tomighty    | desktop timer               |
-| trayvolume  | volume controller           |
-| tresgrep    | grep tool                   |
-| win32yank   | command-line clipboard tool |
-| winmerge-jp | diff and merge tool         |
-| xdoc2txt    | text converter              |
+|       App       |         Description         |
+| --------------- | --------------------------- |
+| bunbackup       | backup tool                 |
+| cassava         | csv/tsv editor              |
+| clibor          | clipboard manager           |
+| hiddex          | screen privacy tool         |
+| keyhac          | key customization tool      |
+| massigra        | image viewer                |
+| mery            | text editor                 |
+| pause           | always-on-top tool          |
+| rapture         | screen capture tool         |
+| registry-finder | registry editor             |
+| sizer           | window resize tool          |
+| sylphyhorn      | virtual desktop tool        |
+| tomighty        | desktop timer               |
+| trayvolume      | volume controller           |
+| tresgrep        | grep tool                   |
+| win32yank       | command-line clipboard tool |
+| winmerge-jp     | diff and merge tool         |
+| xdoc2txt        | text converter              |
 
 
 ## Official Buckets
