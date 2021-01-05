@@ -25,6 +25,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 | rapture         | screen capture tool                       |
 | registry-finder | registry editor                           |
 | sizer           | window resize tool                        |
+| strokesplus.net | mouse gesture tool                        |
 | sylphyhorn-ex   | virtual desktop tool (fork of sylphyhorn) |
 | sylphyhorn      | virtual desktop tool                      |
 | tomighty        | desktop timer                             |
