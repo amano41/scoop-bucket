@@ -2,9 +2,9 @@
     "homepage": "https://www.strokesplus.net/",
     "description": "Mouse gesture recognition utility for Windows which allows you to create powerful mouse gestures that save you time",
     "license": "Freeware",
-    "version": "0.4.1.2",
-    "url": "https://www.strokesplus.net/files/StrokesPlus.net_Portable_0.4.1.2.zip",
-    "hash": "9a760747dc9d8daca6f9c97a6a5df3952bc2c0e0ed745f41385fcef3c828a777",
+    "version": "0.4.1.4",
+    "url": "https://www.strokesplus.net/files/StrokesPlus.net_Portable_0.4.1.4.zip",
+    "hash": "051484e8706fadd8a499651e1e6270808a4bf4c61e2ca86faf181ee5018274ca",
     "bin": "StrokesPlus.net.exe",
     "shortcuts": [
         [
