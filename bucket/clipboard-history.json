@@ -31,7 +31,9 @@
         "Config.txt",
         "ClipboardHistory.dat",
         "script",
-        "template"
+        "template",
+        "migemo.dll",
+        "dict"
     ],
     "pre_install": [
         "function CreateEmptyFile($name) {",
@@ -41,7 +43,8 @@
         "    }",
         "}",
         "CreateEmptyFile Config.txt",
-        "CreateEmptyFile ClipboardHistory.dat"
+        "CreateEmptyFile ClipboardHistory.dat",
+        "CreateEmptyFile migemo.dll"
     ],
     "post_install": [
         "function RemoveEmptyFile($name) {",
