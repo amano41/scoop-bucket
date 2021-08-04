@@ -13,6 +13,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 
 |        App        |                Description                |
 | ----------------- | ----------------------------------------- |
+| beeftext          | text snippet management tool              |
 | bunbackup         | backup tool                               |
 | cassava           | csv/tsv editor                            |
 | clibor            | clipboard manager                         |
