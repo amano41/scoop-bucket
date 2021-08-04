@@ -11,29 +11,30 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 
 ## App Manifests
 
-|       App       |                Description                |
-| --------------- | ----------------------------------------- |
-| bunbackup       | backup tool                               |
-| cassava         | csv/tsv editor                            |
-| clibor          | clipboard manager                         |
-| crevice         | mouse gesture tool                        |
-| hiddex          | screen privacy tool                       |
-| keyhac          | key customization tool                    |
-| massigra        | image viewer                              |
-| mery            | text editor                               |
-| pause           | always-on-top tool                        |
-| rapture         | screen capture tool                       |
-| registry-finder | registry editor                           |
-| sizer           | window resize tool                        |
-| strokesplus.net | mouse gesture tool                        |
-| sylphyhorn-ex   | virtual desktop tool (fork of sylphyhorn) |
-| sylphyhorn      | virtual desktop tool                      |
-| tomighty        | desktop timer                             |
-| trayvolume      | volume controller                         |
-| tresgrep        | grep tool                                 |
-| win32yank       | command-line clipboard tool               |
-| winmerge-jp     | diff and merge tool                       |
-| xdoc2txt        | text converter                            |
+|        App        |                Description                |
+| ----------------- | ----------------------------------------- |
+| bunbackup         | backup tool                               |
+| cassava           | csv/tsv editor                            |
+| clibor            | clipboard manager                         |
+| clipboard-history | clipboard manager                         |
+| crevice           | mouse gesture tool                        |
+| hiddex            | screen privacy tool                       |
+| keyhac            | key customization tool                    |
+| massigra          | image viewer                              |
+| mery              | text editor                               |
+| pause             | always-on-top tool                        |
+| rapture           | screen capture tool                       |
+| registry-finder   | registry editor                           |
+| sizer             | window resize tool                        |
+| strokesplus.net   | mouse gesture tool                        |
+| sylphyhorn-ex     | virtual desktop tool (fork of sylphyhorn) |
+| sylphyhorn        | virtual desktop tool                      |
+| tomighty          | desktop timer                             |
+| trayvolume        | volume controller                         |
+| tresgrep          | grep tool                                 |
+| win32yank         | command-line clipboard tool               |
+| winmerge-jp       | diff and merge tool                       |
+| xdoc2txt          | text converter                            |
 
 
 ## Official Buckets
