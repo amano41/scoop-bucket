@@ -19,6 +19,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 | clipboard-history | clipboard manager                         |
 | crevice           | mouse gesture tool                        |
 | hiddex            | screen privacy tool                       |
+| jikagaki-desktop  | screen annotation tool                    |
 | keyhac            | key customization tool                    |
 | massigra          | image viewer                              |
 | mery              | text editor                               |
