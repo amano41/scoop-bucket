@@ -2,9 +2,9 @@
     "homepage": "https://beeftext.org",
     "description": "Text snippet management tool",
     "license": "MIT",
-    "version": "10.0",
-    "url": "https://github.com/xmichelo/Beeftext/releases/download/v10.0/Beeftext-10.0-PortableEdition.zip",
-    "hash": "3ac37d16bdc03ce0c592060c992ffdc8c7306aa0f2014644af194a6db489fc30",
+    "version": "11.1",
+    "url": "https://github.com/xmichelo/Beeftext/releases/download/v11.1/Beeftext-11.1-PortableEdition.zip",
+    "hash": "a50846f1ed4479b8db90f0c82eedf6d93e40fff9cc8930b557010865f655df11",
     "extract_dir": "BeeftextPortableEdition",
     "bin": "Beeftext.exe",
     "shortcuts": [
