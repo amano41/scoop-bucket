@@ -12,9 +12,12 @@
             "StrokesPlus.net"
         ]
     ],
+    "post_install": [
+        "Remove-Item -Path \"$dir\\Default_StrokesPlus.net.json\""
+    ],
     "notes": [
-        "The settings file of this app is overwritten every time and cannot be persisted.",
-        "Please copy 'StrokesPlus.net.bin' to the installation directory before the first run."
+        "The config file is \"%APPDATA%\\StrokesPlus.net\\StrokesPlus.net.json\"",
+        "If the config file does not exist, a default config file will be created at the first run."
     ],
     "checkver": {
         "url": "https://www.strokesplus.net/Downloads",
