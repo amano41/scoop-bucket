@@ -54,12 +54,11 @@
         "    }",
         "}",
         "RemoveEmptyFile Config.txt",
-        "RemoveEmptyFile ClipboardHistory.dat",
-        "Remove-Item \"$dir\\*.empty\"",
-        "if (!(Test-Path \"$dir\\Config.txt\")) {",
-        "    Write-Host \"It seems that the configuration file and the history data file have not been created yet.\" -ForeGroundColor DarkYellow",
-        "    Write-Host \"You may need to create the hard links manually after the first run.\" -ForeGroundColor DarkYellow",
-        "}"
+        "Remove-Item \"$dir\\*.empty\""
+    ],
+    "notes": [
+        "If the config file does not exist, a default config file will be created at the first run.",
+        "You need to create a hard link manually or to run `scoop reset`."
     ],
     "checkver": {
         "url": "https://blank-note.sakura.ne.jp/topics/clipboard_history.html",
