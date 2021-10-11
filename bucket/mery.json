@@ -2,15 +2,15 @@
     "homepage": "https://www.haijin-boys.com/",
     "description": "Simple text editor",
     "license": "Freeware",
-    "version": "3.3.0",
+    "version": "3.3.1",
     "architecture": {
         "32bit": {
-            "url": "https://www.haijin-boys.com/download/Mery-3.3.0.zip",
-            "hash": "f24cdf770172388ea7f484b956b1a4615e515590cbfea71e7d75e252290619bd"
+            "url": "https://www.haijin-boys.com/download/Mery-3.3.1.zip",
+            "hash": "9635213bfcb60e14fbd39a10af82ae649af5940ada1bbc765962034f5737bc6b"
         },
         "64bit": {
-            "url": "https://www.haijin-boys.com/download/Mery-x64-3.3.0.zip",
-            "hash": "aa0cfbff97206bda7b18305a4ffc0c27749f77a2d4b03ac3f4021fc23cc8fc56"
+            "url": "https://www.haijin-boys.com/download/Mery-x64-3.3.1.zip",
+            "hash": "05876307115739a42673968a1b8f0c12472b42a933592e22974cd623e6b8605a"
         }
     },
     "extract_dir": "Mery",
