@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://github.com/creviceapp/creviceapp/releases",
-        "re": "/releases/tag/[\\d.]+\">([\\d.]+)"
+        "re": "Crevice ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/creviceapp/creviceapp/releases/download/$majorVersion.$minorVersion/Crevice.$version.zip"
