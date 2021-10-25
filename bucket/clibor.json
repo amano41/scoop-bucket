@@ -57,7 +57,7 @@
     ],
     "checkver": {
         "url": "https://chigusa-web.com/clibor/history/",
-        "re": "ver (?<version>[\\d.]+)"
+        "re": "ver (\\d[\\d.]+)"
     },
     "autoupdate": {
         "url": "https://dforest.watch.impress.co.jp/library/c/clibor/10713/clibor.zip"
