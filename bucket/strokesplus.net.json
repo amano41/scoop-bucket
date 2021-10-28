@@ -12,13 +12,15 @@
             "StrokesPlus.net"
         ]
     ],
-    "post_install": [
-        "Remove-Item -Path \"$dir\\Default_StrokesPlus.net.json\""
+    "persist": "StrokesPlus.net.json",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\StrokesPlus.net.json\")) {",
+        "    Move-Item \"$dir\\Default_StrokesPlus.net.json\" \"$persist_dir\\StrokesPlus.net.json\"",
+        "}"
     ],
-    "notes": [
-        "The config file is \"%APPDATA%\\StrokesPlus.net\\StrokesPlus.net.json\"",
-        "If the config file does not exist, a default config file will be created at the first run."
-    ],
+    "uninstaller": {
+        "script": "Copy-Item \"$dir\\StrokesPlus.net.json\" \"$persist_dir\\StrokesPlus.net.json\" -Force -ErrorAction SilentlyContinue"
+    },
     "checkver": {
         "url": "https://www.strokesplus.net/Downloads",
         "re": "Latest Release: <b>([\\d.]+)"
