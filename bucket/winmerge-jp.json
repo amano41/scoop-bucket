@@ -24,7 +24,7 @@
     "persist": "MergePlugins",
     "checkver": {
         "url": "https://osdn.net/projects/winmerge-jp/",
-        "re": "releases/(?<release>[\\d]{5})\">winmerge-v2 (?<version>[\\d.]+)\\+-jp-(?<build>[\\d]+)",
+        "re": "releases/(?<release>[\\d]{5})\">.+WinMerge (?<version>[\\d.]+)\\+-jp-(?<build>[\\d]+)",
         "replace": "${version}+-jp-${build}"
     },
     "autoupdate": {
