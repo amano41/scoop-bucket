@@ -61,8 +61,8 @@
         "You need to create a hard link manually or to run `scoop reset`."
     ],
     "checkver": {
-        "url": "https://blank-note.sakura.ne.jp/topics/clipboard_history.html",
-        "re": "Clipboard History (?<version>[\\d.]+)"
+        "url": "https://www.vector.co.jp/soft/dl/winnt/util/se512783.html",
+        "re": "<span class=\"version\">(?<version>[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
