@@ -20,6 +20,7 @@ For more detail, visit [official site](https://scoop.sh/) or [GitHub repository]
 | clibor            | clipboard manager                         |
 | clipboard-history | clipboard manager                         |
 | crevice           | mouse gesture tool                        |
+| csv-plus          | csv/tsv editor with tabs functionality    |
 | hiddex            | screen privacy tool                       |
 | jikagaki-desktop  | screen annotation tool                    |
 | keyhac            | key customization tool                    |

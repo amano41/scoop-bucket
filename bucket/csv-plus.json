@@ -1,0 +1,21 @@
+{
+    "homepage": "https://www.plus-one.tech/csv-plus/",
+    "description": "Simple and easy-to-use CSV editor with tabs functionality.",
+    "license": "MIT",
+    "version": "0.9.10",
+    "url": "https://github.com/plusone-masaki/csv-plus/releases/download/v0.9.10/csv-plus-0.9.10-win.zip",
+    "hash": "d2df744f1f12cc7171af100939ab526df6f341bc5a94f3a53b496d584913c571",
+    "bin": "CSV+.exe",
+    "shortcuts": [
+        [
+            "CSV+.exe",
+            "CSV+"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/plusone-masaki/csv-plus"
+    },
+    "autoupdate": {
+        "url": "https://github.com/plusone-masaki/csv-plus/releases/download/v$version/csv-plus-$version-win.zip"
+    }
+}
