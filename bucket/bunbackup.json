@@ -2,15 +2,15 @@
     "homepage": "http://nagatsuki.la.coocan.jp/bunbackup/",
     "description": "Easy and fast backup utility",
     "license": "Freeware",
-    "version": "6.10",
+    "version": "6.11",
     "architecture": {
         "32bit": {
-            "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup610.zip",
-            "hash": "b7b555fae7865cacc643e959ec851a62a870afd485044247ede1a1f7cc2e020b"
+            "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup611.zip",
+            "hash": "73cc545ac336625f7f06aa58706980b4530490902489ae2ead1f52cea5daf4af"
         },
         "64bit": {
-            "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS610.zip",
-            "hash": "7e11eec9102a4d3772566ec3f04068989339c626dc6ab5dea35b201af7b9577b"
+            "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS611.zip",
+            "hash": "0c1ca3f584de62d7118c13eb05009a10950ab7ddc68503139f8d8ea5d2811b5a"
         }
     },
     "bin": "BunBackup.exe",
