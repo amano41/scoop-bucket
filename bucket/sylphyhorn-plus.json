@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://github.com/hwtnb/SylphyHornPlusWin11/releases",
-        "re": "SylphyHornPlus release Ver([\\d.]+)( +(beta\\.\\d+))?",
+        "re": "SylphyHornPlus Ver([\\d.]+)( +(beta\\.\\d+))?",
         "replace": "$1-$3"
     },
     "autoupdate": {
