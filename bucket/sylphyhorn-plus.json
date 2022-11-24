@@ -2,9 +2,9 @@
     "homepage": "https://github.com/hwtnb/SylphyHornPlusWin11",
     "description": "Virtual desktop tools for Windows 11 and Windows 10 (fork of SylphyHorn with better support for Windows 11)",
     "license": "MIT",
-    "version": "4.0.0-beta.8",
-    "url": "https://github.com/hwtnb/SylphyHornPlusWin11/releases/download/v4.0.0-beta.8/SylphyHornPlus-Ver4.0.0-beta.8.zip",
-    "hash": "e379aab9e0bea7007f58428047761d360776e85f99f3bbb6a155b3e1c80dcac1",
+    "version": "4.0.0-beta.9",
+    "url": "https://github.com/hwtnb/SylphyHornPlusWin11/releases/download/v4.0.0-beta.9/SylphyHornPlus-Ver4.0.0-beta.9.zip",
+    "hash": "12a25616dfe5e8afc61cc273f90a9d064a9254a0d3fe1276605ad1fa81dce9a1",
     "extract_dir": "SylphyHorn",
     "bin": "SylphyHorn.exe",
     "shortcuts": [
