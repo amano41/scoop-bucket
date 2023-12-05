@@ -2,15 +2,15 @@
     "homepage": "http://ebstudio.info/home/xdoc2txt.html",
     "description": "Text converter",
     "license": "Freeware",
-    "version": "2.20",
+    "version": "2.21",
     "architecture": {
         "32bit": {
-            "url": "http://ebstudio.info/download/KWICFinder/xd2tx220.zip",
-            "hash": "8ae2dd82e45de910f4aee85a70b977853b6b0320d4a8f1c14ed618e6f1015e49"
+            "url": "http://ebstudio.info/download/KWICFinder/xd2tx221.zip",
+            "hash": "2396cb74922232a1091cddca4c55f1f67f51d1d6fe7fa3c22fb6eb4b0f97ea45"
         },
         "64bit": {
-            "url": "http://ebstudio.info/download/KWICFinder/xd2tx220_x64.zip",
-            "hash": "153e41d5a07fee3cf95e4c3f7e16bcced93cd6b836321767e76e768db307f5e9"
+            "url": "http://ebstudio.info/download/KWICFinder/xd2tx221_x64.zip",
+            "hash": "69b234a88812f10343bdb052a62d146a266f68258741e9f9d646fb856765e66a"
         }
     },
     "bin": "command/xdoc2txt.exe",
