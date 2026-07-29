@@ -2,9 +2,9 @@
     "homepage": "http://www.brianapps.net/sizer/",
     "description": "A freeware utility that allows you to resize any window to an exact, predefined size",
     "license": "Freeware",
-    "version": "4.0.640",
-    "url": "http://www.brianapps.net/sizer4/sizer4_dev640.zip",
-    "hash": "1e6560e2040f929503372f74ba93b521d9c2c90bc4667a9696b04e28d1044f1a",
+    "version": "4.0.673",
+    "url": "http://www.brianapps.net/sizer4/sizer4_dev673.zip",
+    "hash": "fbe673a5d5357be80d3fad60878ad1cd19b07b45edf3232ca9f02b226d8b9891",
     "bin": "sizer.exe",
     "shortcuts": [
         [
