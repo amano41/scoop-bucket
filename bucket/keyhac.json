@@ -1,37 +1,39 @@
 {
-    "homepage": "https://sites.google.com/site/craftware/",
-    "description": "Key customization tool powered by Python",
-    "license": "Freeware",
-    "version": "1.82",
-    "url": "https://crftwr.github.io/keyhac/download/keyhac_182.zip",
-    "hash": "38c0fead7375ff4d1a7e5bfa4db75656d7d7849392da7ccaa8340c60f90ac679",
-    "extract_dir": "keyhac",
-    "bin": "keyhac.exe",
+    "homepage": "https://crftwr.github.io/keyhac/",
+    "description": "Python-scriptable keyboard customization for Windows and macOS",
+    "license": "MIT",
+    "version": "2.3.0",
+    "url": "https://github.com/crftwr/keyhac/releases/download/v2.3.0/Keyhac-2.3.0-win64.zip",
+    "hash": "9a3ad81eb070ad474c76fe4ba1cc39a0057ca68c959d5cbf20292a13eb4fd889",
+    "extract_dir": "Keyhac",
+    "bin": "Keyhac.exe",
     "shortcuts": [
         [
-            "keyhac.exe",
+            "Keyhac.exe",
             "Keyhac"
         ]
     ],
     "persist": [
         "config.py",
-        "keyhac.ini",
-        "dict",
-        "extension"
+        "extensions",
+        "clipboard.json",
+        "settings.json"
     ],
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\config.py\")) {",
-        "    Copy-Item -Path \"$dir\\_config.py\" -Destination \"$dir\\config.py\"",
+        "    Copy-Item -Path \"$dir\\app\\keyhac\\_config.py\" -Destination \"$dir\\config.py\"",
         "}",
-        "if (!(Test-Path \"$persist_dir\\keyhac.ini\")) {",
-        "    New-Item -Path \"$dir\\keyhac.ini\" -ItemType File | Out-Null",
+        "if (!(Test-Path \"$persist_dir\\clipboard.json\")) {",
+        "    New-Item -Path \"$dir\\clipboard.json\" -ItemType File | Out-Null",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\settings.json\")) {",
+        "    New-Item -Path \"$dir\\settings.json\" -ItemType File | Out-Null",
         "}"
     ],
     "checkver": {
-        "url": "https://sites.google.com/site/craftware/keyhac-en",
-        "re": "Keyhac for Windows ver (?<version>[\\d.]+)"
+        "github": "https://github.com/crftwr/keyhac"
     },
     "autoupdate": {
-        "url": "https://crftwr.github.io/keyhac/download/keyhac_$cleanVersion.zip"
+        "url": "https://github.com/crftwr/keyhac/releases/download/v$version/Keyhac-$version-win64.zip"
     }
 }
