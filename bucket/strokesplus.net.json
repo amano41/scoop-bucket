@@ -1,10 +1,10 @@
 {
-    "homepage": "https://www.strokesplus.net/",
+    "homepage": "https://strokesplus.net/",
     "description": "Mouse gesture recognition utility for Windows which allows you to create powerful mouse gestures that save you time",
     "license": "Freeware",
-    "version": "0.5.7.9",
-    "url": "https://www.strokesplus.net/files/StrokesPlus.net_Portable_0.5.7.9.zip",
-    "hash": "0a92de8c4754361f22851a98d210a09d7a035c3cb461eb0780d3bf641f946870",
+    "version": "0.5.8.0",
+    "url": "https://strokesplus.net/StrokesPlus.net_Portable_0.5.8.0.zip",
+    "hash": "1a9f21e62a60f1a3f4475bb813756b4d16f9c714f3b21a9c317d14a46a6c939f",
     "bin": "StrokesPlus.net.exe",
     "shortcuts": [
         [
@@ -22,10 +22,10 @@
         "script": "Copy-Item \"$dir\\StrokesPlus.net.json\" \"$persist_dir\\StrokesPlus.net.json\" -Force -ErrorAction SilentlyContinue"
     },
     "checkver": {
-        "url": "https://www.strokesplus.net/Downloads",
-        "re": "Latest Release: <b>([\\d.]+)"
+        "url": "https://strokesplus.net",
+        "re": "([\\d.]+) Downloads:"
     },
     "autoupdate": {
-        "url": "https://www.strokesplus.net/files/StrokesPlus.net_Portable_$version.zip"
+        "url": "https://strokesplus.net/StrokesPlus.net_Portable_$version.zip"
     }
 }
