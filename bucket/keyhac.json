@@ -2,9 +2,9 @@
     "homepage": "https://crftwr.github.io/keyhac/",
     "description": "Python-scriptable keyboard customization for Windows and macOS",
     "license": "MIT",
-    "version": "2.3.0",
-    "url": "https://github.com/crftwr/keyhac/releases/download/v2.3.0/Keyhac-2.3.0-win64.zip",
-    "hash": "9a3ad81eb070ad474c76fe4ba1cc39a0057ca68c959d5cbf20292a13eb4fd889",
+    "version": "2.5.0",
+    "url": "https://github.com/crftwr/keyhac/releases/download/v2.5.0/Keyhac-2.5.0-win64.zip",
+    "hash": "b430ac07d1b7451e114c6c9318aae8e8f3774650fb8bf08349b61ec726a3ccb2",
     "extract_dir": "Keyhac",
     "bin": "Keyhac.exe",
     "shortcuts": [
