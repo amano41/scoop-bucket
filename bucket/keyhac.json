@@ -15,19 +15,19 @@
     ],
     "persist": [
         "config.py",
-        "extensions",
         "clipboard.json",
-        "settings.json"
+        "settings.json",
+        "extensions"
     ],
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\config.py\")) {",
         "    Copy-Item -Path \"$dir\\app\\keyhac\\_config.py\" -Destination \"$dir\\config.py\"",
         "}",
         "if (!(Test-Path \"$persist_dir\\clipboard.json\")) {",
-        "    New-Item -Path \"$dir\\clipboard.json\" -ItemType File | Out-Null",
+        "    Write-Output '{\"clipboard_history\": [{\"type\": \"string\", \"data\": \"\"}]}' | Out-File \"$dir\\clipboard.json\" -Encoding UTF8",
         "}",
         "if (!(Test-Path \"$persist_dir\\settings.json\")) {",
-        "    New-Item -Path \"$dir\\settings.json\" -ItemType File | Out-Null",
+        "    Write-Output '{\"console_visible\": false}' | Out-File \"$dir\\settings.json\" -Encoding UTF8",
         "}"
     ],
     "checkver": {
