@@ -36,8 +36,7 @@
         "    }",
         "}",
         "CreateEmptyFile Mery.ini",
-        "CreateEmptyFile Mery.his",
-        "CreateEmptyFile migemo.dll"
+        "CreateEmptyFile Mery.his"
     ],
     "checkver": {
         "url": "https://www.haijin-boys.com/software/mery",
